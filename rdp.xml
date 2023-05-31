@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<App2Open xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <nome>Remote Desktop</nome>
+  <exec_path>C:\\Windows\\system32\\mstsc /v:192.168.0.150</exec_path>
+  <abreJanelaMinizada>0</abreJanelaMinizada>
+  <parametros></parametros>
+</App2Open>
