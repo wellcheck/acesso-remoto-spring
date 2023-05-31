@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Código 200 - OK</title>
+</head>
+<body>
+    <h1>Acesso remoto rodando</h1>
+    <h2>Código 200</h2>
+
+</body>
+<script>
+
+setTimeout( 'fechar(); ',5000); //fecha a janela em 5 segundos
+
+function fechar(){
+
+if(document.all){
+
+window.opener = window
+
+window.close("#")
+
+}else{
+
+self.close();
+
+}
+
+}
+
+</script>
+</html>
